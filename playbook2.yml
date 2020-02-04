@@ -21,7 +21,7 @@
     service:
       name: httpd
       state: started
-  handlers:
+  handlers: # va effectuer ce que la notification indique
     - name: restart apache
       service:
         name: httpd
